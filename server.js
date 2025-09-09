@@ -9,8 +9,7 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-  origin: "https://todo-pwa-frontend.vercel.app/",
-  credentials: true,
+  origin: "*",
 };
 
 const PORT = process.env.PORT || 8080;
